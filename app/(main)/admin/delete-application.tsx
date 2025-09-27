@@ -34,7 +34,6 @@ export function DeleteApplication() {
           <LoadingButton
             loading={isPending}
             onClick={handleDeleteApplication}
-            variant="destructive"
             className="w-full"
           >
             Delete Application
