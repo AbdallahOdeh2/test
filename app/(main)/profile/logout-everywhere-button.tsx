@@ -26,7 +26,6 @@ export function LogoutEverywhereButton() {
 
   return (
     <LoadingButton
-      variant="destructive"
       onClick={handleLogoutEverywhere}
       loading={loading}
       className="w-full"
